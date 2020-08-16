@@ -41,8 +41,8 @@
 
 .heading {
     border: grey 1px solid;
-    border-radius: 32px 0px 32px 0px;
-    background-color: rgb(29, 29, 29);
+    border-radius: 0px 32px 0px 32px;
+    background: linear-gradient(grey,black);
     color: white;
     text-align: center;
 }
@@ -60,11 +60,12 @@
 
 body {
 
-    background-color: #333333;
+    background-color: whitesmoke;
 }
 
 .row {
     margin-top: 2rem;
+    padding: 10px;
 }
 
 .grp {
